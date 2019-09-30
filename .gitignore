@@ -1,3 +1,16 @@
+*.asv
+
+*.fig
+
+*.emf
+
+*.docx
+
+*.pdf
+
+labdata/
+
+# Standard MATLAB gitignore
 # Windows default autosave extension
 *.asv
 

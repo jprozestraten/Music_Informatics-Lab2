@@ -35,7 +35,6 @@ G = log(1+gamma*abs(S));
 figure(3)
 imagesc(t,f*1e-3,G)
 set(gca,'YDir','normal')
-colorbar
 ylim([0 5])
 colormap winter
 
@@ -50,8 +49,8 @@ flux = (flux + abs(flux))/2;
 figure(4)
 imagesc(t,f*1e-3,flux)
 set(gca,'YDir','normal')
-colorbar
 ylim([0 5])
+caxis([-3 7.6852])
 colormap winter
 
 
